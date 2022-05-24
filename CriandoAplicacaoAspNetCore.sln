@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoAplicacaoAspNetCore", "CriandoAplicacaoAspNetCore\CriandoAplicacaoAspNetCore.csproj", "{A01D5F05-881E-4C7C-8CD3-2E13DB6412CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CriandoAplicacaoAspNetCore", "CriandoAplicacaoAspNetCore\CriandoAplicacaoAspNetCore.csproj", "{A01D5F05-881E-4C7C-8CD3-2E13DB6412CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoAplicacaoAspNetCore.Data", "CriandoAplicacaoAspNetCore.Data\CriandoAplicacaoAspNetCore.Data.csproj", "{637A7762-6439-4696-AB18-F58F9510E7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoAplicacaoAspNetCore.Model", "CriandoAplicacaoAspNetCore.Model\CriandoAplicacaoAspNetCore.Model.csproj", "{EC5C22CC-99C1-4084-8659-E1641FEA16B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriandoAplicacaoAspNetCore.Business", "CriandoAplicacaoAspNetCore.Business\CriandoAplicacaoAspNetCore.Business.csproj", "{8E815F16-55A2-40AE-A7BE-0B7B0CD4A41C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A01D5F05-881E-4C7C-8CD3-2E13DB6412CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A01D5F05-881E-4C7C-8CD3-2E13DB6412CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A01D5F05-881E-4C7C-8CD3-2E13DB6412CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{637A7762-6439-4696-AB18-F58F9510E7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637A7762-6439-4696-AB18-F58F9510E7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637A7762-6439-4696-AB18-F58F9510E7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637A7762-6439-4696-AB18-F58F9510E7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC5C22CC-99C1-4084-8659-E1641FEA16B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5C22CC-99C1-4084-8659-E1641FEA16B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5C22CC-99C1-4084-8659-E1641FEA16B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5C22CC-99C1-4084-8659-E1641FEA16B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E815F16-55A2-40AE-A7BE-0B7B0CD4A41C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E815F16-55A2-40AE-A7BE-0B7B0CD4A41C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E815F16-55A2-40AE-A7BE-0B7B0CD4A41C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E815F16-55A2-40AE-A7BE-0B7B0CD4A41C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
